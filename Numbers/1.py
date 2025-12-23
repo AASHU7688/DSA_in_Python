@@ -4,9 +4,9 @@ n=int(input("enter the number: "))
 original = n
 rev = 0
 
-digit=len(str(n))
+digits=len(str(n))
 
-for i in range(digit):
+for i in range(digits):
     digit=n%10
     rev=rev*10+digit
     n=n//10
